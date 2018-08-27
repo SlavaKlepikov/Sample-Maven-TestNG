@@ -1,9 +1,11 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="TestSuite">
-    <test name="TestOne">
+<suite name="Suite1" >
+    <test name="test1" >
         <classes>
-           <class name="SelenideGoogle" />
+            <class name="SelenideGoogle"/>
         </classes>
+
     </test>
+
 </suite>
